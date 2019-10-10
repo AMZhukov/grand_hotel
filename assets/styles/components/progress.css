@@ -1,0 +1,19 @@
+.progress__container {
+display: none;
+}
+
+.progress__old {
+    font-size: 70px;
+    color: #e1e1e1;
+    margin: 100px auto 35px;
+    text-align: center;
+}
+
+.progress__tagline {
+    font-size: 14px;
+    color: 404040;
+    margin: 35px auto 210px;
+    max-width: 310px;
+    line-height: 1;
+    text-align: center;
+}

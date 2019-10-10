@@ -1,0 +1,11 @@
+{
+  "name": "tastednpmpackage",
+  "version": "0.0.2",
+  "description": "\u001bTry created npm package",
+  "main": "script-one.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "author": "Andrey Zhukov",
+  "license": "ISC"
+}

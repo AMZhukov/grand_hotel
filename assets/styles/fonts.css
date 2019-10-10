@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'pt_serifregular';
+  src: url('../../assets/fonts/pt-serif/assespt-serif_allfont.ru-webfont.eot');
+  src: url('../../assets/fonts/pt-serif/pt-serif_allfont.ru-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../../assets/fonts/pt-serif/pt-serif_allfont.ru-webfont.woff') format('woff'),
+  url('../../assets/fonts/pt-serif/pt-serif_allfont.ru-webfont.ttf') format('truetype'),
+  url('../../assets/fonts/pt-serif/pt-serif_allfont.ru-webfont.svg#pt_serifregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

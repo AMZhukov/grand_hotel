@@ -1,0 +1,106 @@
+.header {
+    display: flex;
+    height: 100px;
+    background-color: #f8f8f8;
+    flex-direction: row;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+.header__container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    align-items: center;
+    display: flex;
+}
+.header__logo-intermediate {
+    align-items: center;
+    display: flex;
+}
+
+.header__logo-image {
+    animation-name: ckw;
+    animation-duration: 20.5s;
+    /* Things added */
+    animation-iteration-count: infinite;
+    transform-origin: center;
+}
+@keyframes ckw {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.header__logo-emblem {
+    display: inline-block;
+    vertical-align: top;
+
+
+}
+
+.header__logo-emblem-stars {
+    display: inline-block;
+    /*border: yellow 1px solid;*/
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+
+.header__logo-emblem-name {
+    font-size: 14px;
+    font-family: DelphinLTStd;
+    vertical-align: top;
+    /*border: yellow 1px solid;*/
+}
+
+.header__nav-list {
+    display: flex;
+    height: 100%;
+    width: 70%;
+    justify-content: space-around;
+}
+.header__nav-item {
+    display: flex;
+    align-items: center;
+}
+.header__nav-item-title {
+    font-family: Arial;
+    font-size: 12px;
+}
+.header__nav-item-icon{
+    margin: 10px;
+    width: 7px;
+}
+
+p {
+    display: inline-block;
+    vertical-align: top;
+}
+.header__phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.header__phone-icon{
+    stroke:#8A6353;
+}
+@font-face {
+    font-family: DelphinLTStd; /* Имя шрифта */
+    src: url(DelphinLTStd.ttf); /* Путь к файлу со шрифтом */
+}
+
+.header__phone-number {
+    max-width: 160px;
+}
